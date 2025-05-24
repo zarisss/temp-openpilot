@@ -9,7 +9,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Upload dummy artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v3.1.2
         with:
           name: dummy
           path: README.md
